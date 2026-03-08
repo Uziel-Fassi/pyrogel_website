@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔥 PyroGel | Next-Gen Wildfire Defense Technology
 
-## Getting Started
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://pyrogel-website.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![License: Copyright](https://img.shields.io/badge/License-Copyright-red.svg)](https://choosealicense.com/no-permission/)
 
-First, run the development server:
+**PyroGel** is a DeepTech startup developing a bio-based, non-toxic intumescent hydrogel that acts as an advanced thermal shield to protect high-value assets from wildfires. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This repository contains the official landing page and technical showcase for PyroGel, built with a focus on **performance**, **cinematic UI/UX**, and **DeepTech storytelling**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Key Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Modern Architecture:** Built with Next.js 15 and the App Router for instant navigation and optimal SEO.
+* **Cinematic Design:** Integration of optimized background videos and fluid scroll-linked animations using **Framer Motion**.
+* **Security & Privacy:** Strict environment variable implementation for external services (Formspree), keeping sensitive API keys out of public exposure.
+* **Responsive UI:** Fully adapted for mobile, tablet, and desktop viewports using **Tailwind CSS**.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Technology | Purpose |
+| :--- | :--- |
+| **Next.js** | React framework for frontend and SSR. |
+| **TypeScript** | Robust development with static typing. |
+| **Tailwind CSS** | Utility-first styling for rapid UI development. |
+| **Framer Motion** | High-performance, declarative animations. |
+| **Formspree** | Serverless form handling. |
+| **Vercel** | CI/CD continuous deployment and hosting. |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💻 Local Setup
 
-## Deploy on Vercel
+To clone and run this project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Uziel-Fassi/pyrogel_website.git](https://github.com/Uziel-Fassi/pyrogel_website.git)
+   cd pyrogel_website
+2. **Install dependencies:**
+   ```bash
+   npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Environment Variables:**
+   Create a .env.local file in the project root and add your Formspree ID:
+   ```env
+   NEXT_PUBLIC_FORMSPREE_KEY=your_id_here
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   
+---
+
+## 🛡️ Security & Best Practices
+
+This project follows professional security standards:
+
+- Git history has been audited to prevent API key leakage.
+- Strict .gitignore usage to protect private assets and configuration files.
+- TypeScript type configuration to minimize runtime errors.
+
+---
+
+## 👤 Author
+
+**Uziel Fassi**  
+Computer Science Student
+
+GitHub: https://github.com/Uziel-Fassi  
+
+LinkedIn: https://www.linkedin.com/in/uziel-fassi-08840a287/
+
+---
+
+© 2026 **PyroGel** — Innovating the thermal future.
