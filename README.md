@@ -64,14 +64,15 @@ This project follows professional security standards:
 
 ---
 
-## 👤 Author
+## 👨‍💻 Author & Contact
 
-**Uziel Fassi**  
-Computer Science Student
+**Uziel Fassi** *Computer Science Undergraduate & Full-Stack / AI Engineer*
 
-GitHub: https://github.com/Uziel-Fassi  
+Are you interested in deploying a custom AI solution for your institution, or looking to discuss software architecture? Let's connect!
 
-LinkedIn: https://www.linkedin.com/in/uziel-fassi-08840a287/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/uziel-fassi-08840a287/) 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Site-black?style=for-the-badge&logo=framer&logoColor=white)](https://myportfoliouzielf.framer.website)
+[![GitHub](https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Uziel-Fassi)
 
 ---
 
