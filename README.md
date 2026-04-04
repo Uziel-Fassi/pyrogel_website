@@ -18,6 +18,17 @@ This repository contains the official landing page and technical showcase for Py
 * **Security & Privacy:** Strict environment variable implementation for external services (Formspree), keeping sensitive API keys out of public exposure.
 * **Responsive UI:** Fully adapted for mobile, tablet, and desktop viewports using **Tailwind CSS**.
 
+### 📸 Visual Showcase
+
+<div align="center">
+  <img src="./pyrogel web pic.png" alt="ZURI AI Fullscreen Chat" width="100%">
+</div>
+
+<div align="center">
+  <img src="./pyrogel validation web.png" alt="ZURI AI Fullscreen Chat" width="100%">
+</div>
+
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
