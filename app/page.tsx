@@ -845,6 +845,11 @@ function TeamSection() {
                   Leads the physical execution of experiments and the translation of technical research into scalable lab protocols. Manages daily laboratory operations, testing procedures, and data collection.
                 </p>
               </div>
+              <div className="mt-4 flex items-center justify-center md:mt-0 md:w-40">
+                <div className="relative h-24 w-24 overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 sm:h-28 sm:w-28 md:h-32 md:w-32">
+                  <Image src="/images/qr-angelica-pyrogel.png" alt="QR code for Angélica's LinkedIn" fill className="object-contain p-1.5" />
+                </div>
+              </div>
             </div>
           </motion.div>
 
@@ -876,6 +881,11 @@ function TeamSection() {
                 <p className="text-xs text-slate-300 sm:text-sm">
                   Facilitates institutional partnerships and critical laboratory access. Provides expert guidance on formulation ideation and the strategic planning required to transition chemical architectures from theory into physical reality.
                 </p>
+              </div>
+              <div className="mt-4 flex items-center justify-center md:mt-0 md:w-40">
+                <div className="relative h-24 w-24 overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 sm:h-28 sm:w-28 md:h-32 md:w-32">
+                  <Image src="/images/qr-dr-mercado.png" alt="QR code for Dr. Mercado's LinkedIn" fill className="object-contain p-1.5" />
+                </div>
               </div>
             </div>
           </motion.div>
