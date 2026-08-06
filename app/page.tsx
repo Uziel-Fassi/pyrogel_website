@@ -172,7 +172,7 @@ function NavBar() {
             Our Science
           </motion.a>
           <motion.a href="#roi" whileHover={{ y: -1 }} className="transition hover:text-emerald-300">
-            Impact &amp; ROI
+            Impact
           </motion.a>
           <motion.a href="#traction" whileHover={{ y: -1 }} className="transition hover:text-emerald-300">
             Traction
@@ -237,7 +237,7 @@ function HeroSection() {
                 href="#roi"
                 className="inline-flex items-center gap-2 rounded-full border border-slate-500/50 bg-slate-900/40 px-7 py-3 text-xs font-bold uppercase tracking-[0.18em] text-slate-100 backdrop-blur-md transition hover:border-emerald-400/70 hover:text-emerald-200"
               >
-                View Impact &amp; ROI
+                View Impact
                 <TrendingUp className="h-4 w-4" />
               </a>
             </div>
@@ -458,7 +458,7 @@ function ScienceSection() {
   );
 }
 
-/* ─────────────────── Operational Impact & ROI Section ─────────────────── */
+/* ─────────────────── Operational Impact Section ─────────────────── */
 const roiMetrics = [
   {
     value: "5x",
@@ -490,16 +490,6 @@ const roiMetrics = [
     bg: "rgba(16,185,129,0.04)",
     valueColor: "#6ee7b7",
   },
-  {
-    value: "8–15x",
-    label: "Public ROI",
-    description:
-      "Every $1 invested in PyroGel prevents approximately $8 to $15 in emergency response, asset loss, and recovery expenditures under high-risk scenarios.",
-    glow: "rgba(16,185,129,0.15)",
-    borderGlow: "rgba(16,185,129,0.35)",
-    bg: "rgba(16,185,129,0.03)",
-    valueColor: "#6ee7b7",
-  },
 ];
 
 function ROISection() {
@@ -507,7 +497,7 @@ function ROISection() {
     <section id="roi" className="relative min-h-[600px] w-full overflow-hidden py-24 flex items-center justify-center">
       <div className="absolute inset-0 z-0 bg-slate-950">
         <video className="h-full w-full object-cover opacity-40" autoPlay muted loop playsInline preload="none">
-          <source src="/videos/tech.webm" type="video/webm" />
+          <source src="/videos/asset-protection.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 z-10 bg-slate-950/60" />
       </div>
@@ -521,7 +511,7 @@ function ROISection() {
           className="space-y-10"
         >
           <motion.div variants={fadeInItem} className="text-center space-y-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-400">Operational Impact &amp; ROI</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-400">Operational Impact</p>
             <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
               Operational Impact &amp; Economics
             </h2>
@@ -536,7 +526,7 @@ function ROISection() {
             </p>
           </motion.div>
 
-          <motion.div variants={staggerContainer} className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4" style={{ perspective: "1200px" }}>
+          <motion.div variants={staggerContainer} className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3" style={{ perspective: "1200px" }}>
             {roiMetrics.map((m) => (
               <TiltCard
                 key={m.label}
@@ -774,12 +764,11 @@ function TeamSection() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-slate-50 sm:text-base">Sofia Mendez Roca</p>
-                    <p className="text-[11px] font-medium text-emerald-300">CEO · International Business &amp; Strategy</p>
+                    <p className="text-[11px] font-medium text-emerald-300">CEO &amp; Head of Innovation</p>
                   </div>
                 </div>
                 <p className="text-xs text-slate-300 sm:text-sm">
-                  Leads commercialization, partnerships, and go-to-market strategy for utilities, municipalities,
-                  and industrial operators navigating escalating wildfire risk.
+                  Leads R&amp;D strategy, commercialization, and partnerships. Drives the go-to-market execution for utilities, municipalities, and industrial operators navigating escalating wildfire risk.
                 </p>
               </div>
               <div className="mt-4 flex items-center justify-center md:mt-0 md:w-40">
@@ -816,14 +805,77 @@ function TeamSection() {
                   </div>
                 </div>
                 <p className="text-xs text-slate-300 sm:text-sm">
-                  Oversees PyroGel&apos;s operations, computational modeling, and the translation of technical
-                  research into scalable lab protocols and operational workflows.
+                  Oversees PyroGel&apos;s core operations, financial strategy, and computational modeling. Ensures seamless execution across business workflows, resource allocation, and technical milestones.
                 </p>
               </div>
               <div className="mt-4 flex items-center justify-center md:mt-0 md:w-40">
                 <div className="relative h-24 w-24 overflow-hidden rounded-2xl border border-slate-700 bg-slate-900 sm:h-28 sm:w-28 md:h-32 md:w-32">
                   <Image src="/images/qr-uziel-actualizado.png" alt="QR code for Uziel's LinkedIn" fill className="object-contain p-1.5" />
                 </div>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Angélica Bejarano */}
+          <motion.div
+            variants={fadeInItem}
+            whileHover={{ scale: 1.02, y: -4 }}
+            className="group relative rounded-3xl border border-slate-800 bg-slate-950/80 p-6 text-left shadow-[0_22px_80px_rgba(15,23,42,0.9)] transition-all hover:border-emerald-400/60 hover:shadow-[0_0_70px_rgba(16,185,129,0.3)] overflow-hidden"
+          >
+            {/* Dot pattern background */}
+            <div
+              className="pointer-events-none absolute inset-0 opacity-[0.03] transition-opacity group-hover:opacity-[0.06]"
+              style={{
+                backgroundImage: "radial-gradient(circle, rgba(16,185,129,0.8) 1px, transparent 1px)",
+                backgroundSize: "20px 20px",
+              }}
+            />
+            <div className="relative flex flex-col gap-5 md:flex-row md:items-stretch">
+              <div className="flex-1 space-y-4">
+                <div className="flex items-center gap-4">
+                  <div className="relative h-16 w-16 overflow-hidden rounded-full border border-emerald-400/70 bg-slate-900 transition-transform group-hover:scale-110">
+                    <Image src="/images/angelica-pyrogel.jpeg" alt="Angélica Bejarano" fill className="object-cover" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-slate-50 sm:text-base">Angélica Bejarano</p>
+                    <p className="text-[11px] font-medium text-emerald-300">Laboratory Researcher · BSc Biotechnology Engineering</p>
+                  </div>
+                </div>
+                <p className="text-xs text-slate-300 sm:text-sm">
+                  Leads the physical execution of experiments and the translation of technical research into scalable lab protocols. Manages daily laboratory operations, testing procedures, and data collection.
+                </p>
+              </div>
+            </div>
+          </motion.div>
+
+          {/* Luis Adolfo Mercado Roca */}
+          <motion.div
+            variants={fadeInItem}
+            whileHover={{ scale: 1.02, y: -4 }}
+            className="group relative rounded-3xl border border-slate-800 bg-slate-950/80 p-6 text-left shadow-[0_22px_80px_rgba(15,23,42,0.9)] transition-all hover:border-emerald-400/60 hover:shadow-[0_0_70px_rgba(16,185,129,0.3)] overflow-hidden"
+          >
+            {/* Dot pattern background */}
+            <div
+              className="pointer-events-none absolute inset-0 opacity-[0.03] transition-opacity group-hover:opacity-[0.06]"
+              style={{
+                backgroundImage: "radial-gradient(circle, rgba(16,185,129,0.8) 1px, transparent 1px)",
+                backgroundSize: "20px 20px",
+              }}
+            />
+            <div className="relative flex flex-col gap-5 md:flex-row md:items-stretch">
+              <div className="flex-1 space-y-4">
+                <div className="flex items-center gap-4">
+                  <div className="relative h-16 w-16 overflow-hidden rounded-full border border-emerald-400/70 bg-slate-900 transition-transform group-hover:scale-110">
+                    <Image src="/images/dr-mercado-pyrogel.jpeg" alt="Luis Adolfo Mercado Roca, PhD" fill className="object-cover" />
+                  </div>
+                  <div>
+                    <p className="text-sm font-semibold text-slate-50 sm:text-base">Luis Adolfo Mercado Roca, PhD</p>
+                    <p className="text-[11px] font-medium text-emerald-300">Scientific Advisor · PhD in Chemistry</p>
+                  </div>
+                </div>
+                <p className="text-xs text-slate-300 sm:text-sm">
+                  Facilitates institutional partnerships and critical laboratory access. Provides expert guidance on formulation ideation and the strategic planning required to transition chemical architectures from theory into physical reality.
+                </p>
               </div>
             </div>
           </motion.div>
@@ -875,7 +927,7 @@ function ContactSection() {
     <Section id="contact" className="bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 pb-28">
       <motion.div variants={staggerContainer} className="space-y-10">
         <motion.div variants={fadeInItem} className="space-y-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-400">Contact</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-400">Join the Waitlist</p>
           <h2 className="text-balance text-3xl font-semibold tracking-tight sm:text-4xl">
             Let&apos;s protect our natural capital.
           </h2>
